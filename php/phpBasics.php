@@ -36,11 +36,11 @@
     // echo "<br/>";
 
 
-    // $realNames = ["Prakash", "Dinesh", "Dipesh"];
+    $realNames = ["Prakash", "Dinesh", "Dipesh"];
     
-    // foreach($realNames as $realName) {
-    //   echo $realName . "<br/>";
-    // }
+    foreach($realNames as $realName) {
+      echo $realName . "<br/>";
+    }
 
     function displaySentence($sentence){
       return $sentence;
